@@ -1,0 +1,8 @@
+### MacOS-Systemdateien
+.DS_Store
+
+### Umgebungsvariablen (Niemals in öffentliche Git-Repositories hochladen)
+.env
+
+### Node packages
+node_modules
