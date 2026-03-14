@@ -4,5 +4,28 @@
 ### Umgebungsvariablen (Niemals in öffentliche Git-Repositories hochladen)
 .env
 
-### Node packages
+### Node Pakete & Artefakte
+dist
 node_modules
+
+### CAP
+*.db
+gen/
+
+### MTA
+*.mtar
+mta_archives/
+
+### Anwendungen
+*.app
+*.exe
+*.war
+
+### Große Mediendateien
+*.avi
+*.flv
+*.mov
+*.mp3
+*.mp4
+*.tiff
+*.wmv

@@ -1,0 +1,16 @@
+### Ignoriere (generierte) package-lock.json
+package-lock.json
+
+### Dateien
+.*ignore
+.DS_Store
+*.db
+*.html
+*.mtar
+
+### Ordner
+dist
+gen
+mta_archives/
+node_modules
+**/node_modules

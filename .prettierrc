@@ -1,0 +1,30 @@
+{
+    "trailingComma": "none",
+    "printWidth": 160,
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": false,
+    "endOfLine": "lf",
+    "overrides": [
+        {
+            "files": ["*.js"],
+            "options": {
+                "parser": "babel"
+            }
+        },
+        {
+            "files": ["*.yaml", "*.yml", "*.mtaext"],
+            "options": {
+                "parser": "yaml",
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": ["app/**/*.xml"],
+            "options": {
+                "xmlWhitespaceSensitivity": "ignore"
+            }
+        }
+    ]
+}
