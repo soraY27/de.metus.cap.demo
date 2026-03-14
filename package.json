@@ -1,0 +1,25 @@
+{
+    "name": "de.metus.cap.demo",
+    "version": "1.0.0",
+    "description": "A demo CAP project from metus",
+    "author": "Metehan Dogan (Metus or GitHub:soraY27)",
+    "homepage": "https://github.com/soraY27/de.metus.cap.demo#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/soraY27/de.metus.cap.demo.git"
+    },
+    "bugs": {
+        "url": "https://github.com/soraY27/de.metus.cap.demo/issues"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": "^22.22",
+        "npm": "^10.9"
+    },
+    "devDependencies": {
+        "@prettier/plugin-xml": "^3.4.2"
+    },
+    "scripts": {
+        "start": "cds watch"
+    }
+}
