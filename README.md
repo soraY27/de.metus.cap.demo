@@ -66,6 +66,17 @@ This repository serves as:
 - a **reference implementation for recurring backend patterns**
 - a **collection of reusable CAP service templates**
 
+## Key Conventional Commit Prefixes
+
+chore: Routine tasks, build tools, or dependency updates.
+docs: Changes to documentation.
+feat: A new feature for the user.
+fix: A bug fix.
+perf: Performance improvements.
+refactor: Refactoring production code (neither fixes a bug nor adds a feature).
+style: Formatting, missing semicolons, etc. (no code change).
+test: Adding or updating tests.
+
 ## License
 
 This project is provided for demonstration purposes.
