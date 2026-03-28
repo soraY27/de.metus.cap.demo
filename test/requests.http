@@ -1,0 +1,3 @@
+### BookshopMaintainService.read Books
+GET http://localhost:4004/cap/bookshop/maintain/Books?
+&$select=ID,Title,Author
