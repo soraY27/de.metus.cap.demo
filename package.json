@@ -17,9 +17,11 @@
         "npm": "^10.9"
     },
     "devDependencies": {
+        "@sap/cds-dk": "^9.8.1",
         "@prettier/plugin-xml": "^3.4.2"
     },
     "dependencies": {
+        "@sap/cds": "^9.8.1",
         "@cap-js/hana": "^2"
     },
     "scripts": {
