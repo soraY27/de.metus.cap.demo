@@ -68,14 +68,16 @@ This repository serves as:
 
 ## Key Conventional Commit Prefixes
 
-chore: Routine tasks, build tools, releases or dependency updates.
-docs: Changes to documentation.
-feat: A new feature for the user.
-fix: A bug fix.
-perf: Performance improvements.
-refactor: Refactoring production code (neither fixes a bug nor adds a feature).
-style: Formatting, missing semicolons, etc. (no code change).
-test: Adding or updating tests.
+| Type     | Description                                                                 |
+|----------|------------------------------------------------------------------------------|
+| chore    | Routine tasks, build tools, releases or dependency updates.                 |
+| docs     | Changes to documentation.                                                   |
+| feat     | A new feature for the user.                                                 |
+| fix      | A bug fix.                                                                  |
+| perf     | Performance improvements.                                                   |
+| refactor | Refactoring production code (neither fixes a bug nor adds a feature).       |
+| style    | Formatting, missing semicolons, etc. (no code change).                      |
+| test     | Adding or updating tests.                                                   |
 
 ## License
 
