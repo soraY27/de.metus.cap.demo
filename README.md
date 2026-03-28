@@ -68,7 +68,7 @@ This repository serves as:
 
 ## Key Conventional Commit Prefixes
 
-chore: Routine tasks, build tools, or dependency updates.
+chore: Routine tasks, build tools, releases or dependency updates.
 docs: Changes to documentation.
 feat: A new feature for the user.
 fix: A bug fix.
