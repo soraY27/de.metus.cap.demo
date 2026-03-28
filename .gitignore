@@ -10,6 +10,9 @@ node_modules
 
 ### CAP
 *.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
 gen/
 
 ### MTA

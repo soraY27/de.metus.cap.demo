@@ -19,7 +19,20 @@
     "devDependencies": {
         "@prettier/plugin-xml": "^3.4.2"
     },
+    "dependencies": {
+        "@cap-js/hana": "^2"
+    },
     "scripts": {
         "start": "cds watch"
+    },
+    "cds": {
+        "requires": {
+            "db": {
+                "kind": "sqlite",
+                "credentials": {
+                    "url": "db/my-db.sqlite"
+                }
+            }
+        }
     }
 }
